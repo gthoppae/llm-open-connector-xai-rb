@@ -16,7 +16,7 @@ class App < Sinatra::Base
   XAI_API_URL = "https://api.x.ai/v1/chat/completions"
   XAI_API_KEY = "<key>"
   XAI_MODEL = "grok-2-1212"
-  CLIENT_API_KEY = ENV['CLIENT_API_KEY'] # Add this line
+  CLIENT_API_KEY = ENV['CLIENT_API_KEY'] 
 
   # Helper methods
   def validate_api_key
